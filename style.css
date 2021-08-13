@@ -18,7 +18,11 @@ body{
     background-color: dimgray;
 }
 
+<<<<<<< HEAD
 #grid-box-3 {
+=======
+#grid-keys {
+>>>>>>> ui
     display: grid ;
     justify-items: stretch;
     justify-content: center;
@@ -33,6 +37,13 @@ body{
     
 }
 
+<<<<<<< HEAD
+=======
+#grid-display {
+    background-color: gray;
+}
+
+>>>>>>> ui
 .button {
     display: flex;
     background-color: aqua;
