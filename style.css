@@ -18,7 +18,7 @@ body{
     background-color: dimgray;
 }
 
-#grid-box-3 {
+#grid-keys {
     display: grid ;
     justify-items: stretch;
     justify-content: center;
@@ -31,6 +31,10 @@ body{
     grid-template-columns: 3.4em 3.4em 3.4em 4em 4em 4em;
     grid-template-rows: repeat(6, 2.96em);
     
+}
+
+#grid-display {
+    background-color: gray;
 }
 
 .button {
