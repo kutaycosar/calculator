@@ -3,33 +3,13 @@
 const display = document.querySelector('#grid-display');
 const buttons = document.querySelectorAll('.button');
 
-const numberArray = ["1","2","3","4","5","6","7","8","9","0"];
 
-let displayText = "";
-let firstNumber;
-let secondNumber;
-let operator = "";
 
 
 // buttons on click to change displayText and display.innerText to button values
 buttons.forEach(function(button){
     button.addEventListener('click', function(event){
-        display.innerText += event.target.value;
-        displayText = display.innerText;
-        //if button is operator
-        if(!numberArray.includes(event.target.value)){
-            if(event.target.value !== "="){
-                operator = event.target.value;
-                firstNumber = displayText.replace(operator, "");
-                //if button is  =
-            }else{
-                // takeSecondNumber();
-                secondNumber = displayText.replace(firstNumber, "").replace(operator, "").replace("=", "");
-
-                
-                display.innerText = operate(firstNumber, secondNumber, operator );
-            }
-        }
+        
         
     })
 })
