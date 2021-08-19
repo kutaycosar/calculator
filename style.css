@@ -30,7 +30,7 @@ body{
     grid-auto-flow: row;
     
     grid-template-columns: 3.4em 3.4em 3.4em 4em 4em 4em;
-    grid-template-rows: repeat(6, 2.96em);
+    grid-template-rows: repeat(6, 3.95em);
     
 }
 
@@ -43,6 +43,14 @@ body{
     
 }
 
+#grid-display-result {
+    display: flex;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    
+}   
+
 .button {
     display: flex;
     background-color: aqua;
@@ -53,7 +61,3 @@ body{
     
 }
 
-#key-equality {
-    width: 8em;
-    height: 3em;
-}
